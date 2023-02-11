@@ -34,7 +34,7 @@ function RenderLandingPage(props) {
       {/* Graphs Section: Add code here for the graphs section for your first ticket */}
       {/* <div className="graphs-section"> */}
       <div className="graphs-section">
-        <div class="grant-rates-by-office-graph-container">
+        <div className="grant-rates-by-office-graph-container">
           <img
             src={GrantRatesByOfficeImg}
             alt="Grant Rates By Office Graph"
@@ -42,7 +42,7 @@ function RenderLandingPage(props) {
           <p>Search Grant Rates Office</p>
         </div>
 
-        <div class="grant-rates-by-nationality-container">
+        <div className="grant-rates-by-nationality-container">
           <img
             src={GrantRatesByNationalityImg}
             alt="Grant Rates By Nationality"
@@ -50,7 +50,7 @@ function RenderLandingPage(props) {
           <p>Search Grant Rates By Nationality</p>
         </div>
 
-        <div class="grant-rates-over-time-container">
+        <div className="grant-rates-over-time-container">
           <img src={GrantRatesOverTimeImg} alt="Grant Rates Over Time"></img>
           <p>Search Grant Rates Over Time</p>
         </div>
@@ -89,7 +89,7 @@ function RenderLandingPage(props) {
         <div className="bottom-section">
           <h1>Systematic Disparity Insights</h1>
 
-          <div class="first-data-point-container">
+          <div className="first-data-point-container">
             <h2>36%</h2>
 
             <h3>
@@ -99,7 +99,7 @@ function RenderLandingPage(props) {
             </h3>
           </div>
 
-          <div class="second-data-point-container">
+          <div className="second-data-point-container">
             <h2>5%</h2>
 
             <h3>
@@ -108,11 +108,11 @@ function RenderLandingPage(props) {
             </h3>
           </div>
 
-          <div class="third-data-point-container">
+          <div className="third-data-point-container">
             <h2>6x Lower</h2>
 
             <h3>
-              Between fiscal year 2017 and 2020, the New York asylum office’s
+              Between fiscal year 2017 and 2020, the New York asylum office`s
               average grant rate was six times lower than the San Francisco
               asylum office
             </h3>
